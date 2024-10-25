@@ -1,5 +1,12 @@
 [
-    {
+  {
+    "relation": ["delegate_permission/common.get_login_creds"],
+    "target": {
+      "namespace": "web",
+      "site": "https://eng-gergely-zsolt.github.io"
+    }
+  },
+  {
       "relation": [
         "delegate_permission/common.get_login_creds"
       ],
